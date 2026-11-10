@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Run your own Feather Cloud server</title>
+  <meta name="description" content="The Feather Cloud sync server is open source. Run it with Docker and connect the Mac app to it.">
+  <link rel="icon" href="/assets/feather.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <a class="brand" href="/"><img src="/assets/feather.svg" alt="">Feather Note</a>
+      <nav class="nav" aria-label="Main">
+        <a href="/download/">Download</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/self-hosting/" aria-current="page">Self-hosting</a>
+      </nav>
+    </header>
+
+    <main class="hero">
+      <p class="overline">Self-hosting</p>
+      <h1>Run your own sync server</h1>
+      <p class="lead">The Feather Cloud server is open source (AGPL-3.0). It stores only encrypted data, so even on your own machine it can't read your notes.</p>
+      <div class="actions">
+        <a class="button primary" href="https://github.com/raduzoom/feather-note-server/blob/main/docs/self-hosting.md">Read the self-hosting guide</a>
+      </div>
+      <section class="section two">
+        <div class="panel">
+          <h2>What you need</h2>
+          <ul class="ticks">
+            <li>A machine with Docker and Docker Compose</li>
+            <li>A domain name, for HTTPS</li>
+            <li>About 1 GB of memory, and disk space for your notes</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h2>Connecting the app</h2>
+          <p>In Feather Note, open Settings › Advanced, enter your server's address and choose Connect to Server. Trial and plan screens don't appear for your own server.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <span>Feather Note</span>
+      <nav aria-label="Footer">
+        <a href="/privacy/">Privacy</a>
+        <a href="https://github.com/raduzoom/feather-note-server">Server on GitHub</a>
+      </nav>
+    </footer>
+  </div>
+</body>
+</html>

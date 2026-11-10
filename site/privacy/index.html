@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy: what Feather Cloud can and can't see</title>
+  <meta name="description" content="Feather Cloud stores only encrypted notes. Here is exactly what the server can and can't see.">
+  <link rel="icon" href="/assets/feather.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <a class="brand" href="/"><img src="/assets/feather.svg" alt="">Feather Note</a>
+      <nav class="nav" aria-label="Main">
+        <a href="/download/">Download</a>
+        <a href="/privacy/" aria-current="page">Privacy</a>
+        <a href="/self-hosting/">Self-hosting</a>
+      </nav>
+    </header>
+
+    <main class="hero">
+      <p class="overline">Privacy</p>
+      <h1>What Feather Cloud can and can't see</h1>
+      <p class="lead">Your notes are encrypted on this device before they're uploaded. Only your devices can read them.</p>
+
+      <section class="two">
+        <div class="panel">
+          <h2>The server never sees</h2>
+          <ul class="ticks">
+            <li>Your password or your recovery key</li>
+            <li>The key that encrypts your notes</li>
+            <li>Note titles or text, notebook or tag names</li>
+            <li>Attachment names, types or content</li>
+            <li>Which notes are in which notebook, or which tags a note has</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h2>The server does see</h2>
+          <ul class="ticks">
+            <li>Your email address, used for sign-in codes</li>
+            <li>How many notes, notebooks, tags and attachments you have, and their encrypted sizes</li>
+            <li>When each item was created and changed, and whether it was deleted</li>
+            <li>The names you give your devices, and the IP addresses they connect from</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>No tracking</h2>
+        <p>This website and the app use no analytics, no cookies and no third-party scripts. The app makes no network request at all until you choose to sync.</p>
+        <h2>Deleting your account</h2>
+        <p>Deleting your account in the app signs every device out at once and removes your encrypted notes and files from the server within 24 hours, and from its backups within 14 days. The notes on your Macs stay.</p>
+        <h2>Services Feather Cloud uses</h2>
+        <ul class="ticks">
+          <li>Cloudflare carries the connection between your devices and the server. Like any network provider, it can see your email address, IP address and sign-in requests, but never your notes, which are encrypted before they leave your device.</li>
+          <li>An email provider sends your sign-in codes, so it sees your email address and those codes.</li>
+        </ul>
+        <h2>If you lose your password</h2>
+        <p>Your recovery key is the only way back in. Without your password or your recovery key, your notes can't be decrypted by anyone, including us.</p>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <span>Feather Note</span>
+      <nav aria-label="Footer">
+        <a href="/self-hosting/">Self-hosting</a>
+        <a href="https://github.com/raduzoom/feather-note-server">Server on GitHub</a>
+      </nav>
+    </footer>
+  </div>
+</body>
+</html>
