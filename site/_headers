@@ -3,3 +3,9 @@
   Referrer-Policy: no-referrer
   Permissions-Policy: interest-cohort=()
   X-Content-Type-Options: nosniff
+
+/llms.txt
+  Content-Type: text/plain; charset=utf-8
+
+/pricing.md
+  Content-Type: text/markdown; charset=utf-8

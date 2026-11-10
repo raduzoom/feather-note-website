@@ -97,6 +97,9 @@ code { font-family: var(--mono); font-size: 0.9em; background: var(--code); padd
 .panel { background: var(--glass); border: 1px solid var(--hairline); border-radius: 24px; padding: 32px; }
 .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(16rem, 100%), 1fr)); gap: 24px; }
 .grid .panel h3 { margin-top: 0; }
+.faq { display: grid; gap: 8px; }
+.qa h3 { margin: 24px 0 8px; font-size: 20px; }
+.qa p { margin: 0; }
 .section { padding: 48px 0 0; }
 .two { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(20rem, 100%), 1fr)); gap: 24px; }
 ul.ticks { padding-left: 24px; }

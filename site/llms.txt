@@ -1,0 +1,28 @@
+# Feather Note
+
+> Feather Note is a native Mac app for notes in Markdown. Notes are encrypted on the Mac before they sync, so only the user's devices can read them. Sync runs through Feather Cloud (free during the first release) or a self-hosted open-source server.
+
+Key facts:
+
+- Platform: macOS 15 Sequoia or later, Apple silicon and Intel. Version 1.0.0 is the first release.
+- Price: the app is free; writing, search, import and export need no account. Feather Cloud sync is free during the first release.
+- Notes are plain Markdown; the whole library exports to a folder of .md files at any time.
+- Imports Evernote exports (.enex) and Notion exports, with notebooks, tags, checklists and attachments.
+- End-to-end encryption: titles, text, tags, notebook names and attachments are encrypted before upload. The server never sees the password, the recovery key or the encryption key.
+- Works offline: the app makes no network request until the user chooses to sync.
+- Sync conflicts keep both versions; nothing is overwritten.
+- Open source: the Mac app is MIT, the sync server is AGPL-3.0 and runs with Docker.
+
+## Pages
+
+- [Home](https://WEBSITE_DOMAIN/): what Feather Note is, its features, and common questions
+- [Download](https://WEBSITE_DOMAIN/download/): system requirements and where releases are published
+- [Privacy](https://WEBSITE_DOMAIN/privacy/): exactly what the sync server can and can't see, account deletion, services used
+- [Self-hosting](https://WEBSITE_DOMAIN/self-hosting/): run your own sync server and connect the app
+- [Pricing](https://WEBSITE_DOMAIN/pricing.md): prices in plain text
+
+## Source code
+
+- [Mac app](https://github.com/raduzoom/feather-note-mac): Swift, MIT
+- [Sync server](https://github.com/raduzoom/feather-note-server): Go, AGPL-3.0, with the self-hosting guide
+- [This website](https://github.com/raduzoom/feather-note-website): static HTML and CSS
