@@ -23,6 +23,6 @@ Key facts:
 
 ## Source code
 
-- [Mac app](https://github.com/raduzoom/feather-note-mac): Swift, MIT
+- [Mac app](https://github.com/raduzoom/feathermark-apple): Swift, MIT
 - [Sync server](https://github.com/raduzoom/feather-note-server): Go, AGPL-3.0, with the self-hosting guide
 - [This website](https://github.com/raduzoom/feather-note-website): static HTML and CSS

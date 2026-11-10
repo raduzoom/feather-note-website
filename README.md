@@ -12,7 +12,7 @@ Before going live, replace `WEBSITE_DOMAIN` everywhere in `site/` and run `pytho
 
 ## Related repositories
 
-- `feather-note-mac`: the macOS app (MIT)
+- `feathermark-apple`: the Apple apps, macOS now and iPhone and iPad to come, with their shared Swift packages (MIT)
 - `feather-note-server`: the Feather Cloud sync server (AGPL-3.0)
 
 ## License
