@@ -1,6 +1,6 @@
-# Feather Note website: agent rules
+# FeatherMark website: agent rules
 
-Rules for AI agents in this repo. `CLAUDE.md` is a symlink to this file. The shared rules for all Feather Note repos are in `../AGENTS.md`; global rules in `~/Dropbox/Configs/claude/AGENTS.md` still apply.
+Rules for AI agents in this repo. `CLAUDE.md` is a symlink to this file. The shared rules for all FeatherMark repos are in `../AGENTS.md`; global rules in `~/Dropbox/Configs/claude/AGENTS.md` still apply.
 
 ## What this is (when changing anything)
 
@@ -19,7 +19,7 @@ The static website, served by Cloudflare Pages from `site/` as is: no build step
 
 Every presentation site is optimized for search engines and for AI assistants (the user's standing rule; `~/Dropbox/hosts/devsite/projects/general-app-knowledge/docs/presentation-site-seo.md`). Here that means:
 - Each page: a unique title (at most 60 characters) and description (120–160; the checker enforces both), a canonical URL, Open Graph and Twitter card tags with `assets/social-card.png`, and JSON-LD (`<script type="application/ld+json">`, the home page's `@graph`: Organization, WebSite, SoftwareApplication, FAQPage; other pages: WebPage and BreadcrumbList). `404.html` is `noindex`.
-- Content answers first: the first paragraph says what Feather Note is; headings never skip a level; FAQ questions are `<h3>`s whose text and answers match the FAQPage data word for word (the checker compares them).
+- Content answers first: the first paragraph says what FeatherMark is; headings never skip a level; FAQ questions are `<h3>`s whose text and answers match the FAQPage data word for word (the checker compares them).
 - A new page goes into `sitemap.xml` (with `lastmod`) and `llms.txt`. Prices go in `pricing.md`; keep it current.
 - `robots.txt` lets every search and AI crawler in.
 - Absolute URLs use `https://WEBSITE_DOMAIN` until the domain is bought; `check_site.py --publish` refuses the placeholder.

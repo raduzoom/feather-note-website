@@ -1,6 +1,6 @@
-# Feather Note
+# FeatherMark
 
-> Feather Note is a native Mac app for notes in Markdown. Notes are encrypted on the Mac before they sync, so only the user's devices can read them. Sync runs through Feather Cloud (free during the first release) or a self-hosted open-source server.
+> FeatherMark is a native Mac app for notes in Markdown. Notes are encrypted on the Mac before they sync, so only the user's devices can read them. Sync runs through Feather Cloud (free during the first release) or a self-hosted open-source server.
 
 Key facts:
 
@@ -15,7 +15,7 @@ Key facts:
 
 ## Pages
 
-- [Home](https://WEBSITE_DOMAIN/): what Feather Note is, its features, and common questions
+- [Home](https://WEBSITE_DOMAIN/): what FeatherMark is, its features, and common questions
 - [Download](https://WEBSITE_DOMAIN/download/): system requirements and where releases are published
 - [Privacy](https://WEBSITE_DOMAIN/privacy/): exactly what the sync server can and can't see, account deletion, services used
 - [Self-hosting](https://WEBSITE_DOMAIN/self-hosting/): run your own sync server and connect the app

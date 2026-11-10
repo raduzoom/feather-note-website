@@ -1,4 +1,4 @@
-# Feather Note: everything on this site is public. Search engines and AI assistants are welcome to read and cite it.
+# FeatherMark: everything on this site is public. Search engines and AI assistants are welcome to read and cite it.
 User-agent: *
 Allow: /
 

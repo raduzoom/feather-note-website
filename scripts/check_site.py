@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Checks the Feather Note website before it ships (Phase 9 Review Focus 5).
+"""Checks the FeatherMark website before it ships (Phase 9 Review Focus 5).
 
     python3 scripts/check_site.py      # from the website repo root; prints "site OK" or every failure
 

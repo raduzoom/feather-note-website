@@ -1,8 +1,8 @@
-# Pricing: Feather Note
+# Pricing: FeatherMark
 
 Updated 2026-11-10. Version 1.0.0 is the first release.
 
-## Feather Note for Mac
+## FeatherMark for Mac
 - Price: free
 - Account: not needed for writing, search, import or export
 - Includes: unlimited notes, Markdown export of the whole library, Evernote and Notion import

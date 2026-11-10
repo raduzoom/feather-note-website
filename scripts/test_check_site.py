@@ -125,7 +125,7 @@ class CheckSiteTests(unittest.TestCase):
         self.assertCaught("llms.txt")
 
     def test_faq_schema_differs_from_the_page(self):
-        self.plant(HOME, "<h3>Is Feather Note free?</h3>", "<h3>Is Feather Note cheap?</h3>")
+        self.plant(HOME, "<h3>Is FeatherMark free?</h3>", "<h3>Is FeatherMark cheap?</h3>")
         self.assertCaught("FAQ")
 
     def test_heading_level_skipped(self):
@@ -133,8 +133,8 @@ class CheckSiteTests(unittest.TestCase):
         self.assertCaught("heading")
 
     def test_title_too_long_for_search_results(self):
-        self.plant("download/index.html", "<title>Download Feather Note for Mac</title>",
-                   "<title>Download Feather Note for Mac, the native Markdown notes app with sync</title>")
+        self.plant("download/index.html", "<title>Download FeatherMark for Mac</title>",
+                   "<title>Download FeatherMark for Mac, the native Markdown notes app with sync</title>")
         self.assertCaught("title")
 
     def test_description_too_short(self):

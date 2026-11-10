@@ -1,6 +1,6 @@
-# Feather Note website
+# FeatherMark website
 
-The website for Feather Note, a native Mac app for Markdown notes with end-to-end-encrypted sync. Plain HTML and CSS in `site/`, served by Cloudflare Pages with no build step. Built for search engines and AI assistants: structured data, a sitemap, `robots.txt`, `llms.txt` and `pricing.md`.
+The website for FeatherMark, a native Mac app for Markdown notes with end-to-end-encrypted sync. Plain HTML and CSS in `site/`, served by Cloudflare Pages with no build step. Built for search engines and AI assistants: structured data, a sitemap, `robots.txt`, `llms.txt` and `pricing.md`.
 
 Check it before publishing:
 
@@ -21,4 +21,4 @@ MIT, see [LICENSE](LICENSE).
 
 ## Trademark
 
-The name Feather Note stays with the author. Forks must use a different name.
+The name FeatherMark stays with the author. Forks must use a different name.
